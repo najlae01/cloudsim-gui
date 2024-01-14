@@ -1,0 +1,21 @@
+.vm {
+  flex-basis: 30%;
+  margin-bottom: 10px;
+  background: #ff5722;
+
+  border-radius: 2px;
+}
+
+.vm:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 1px 1px rgba(0, 0, 0, 0.22);
+}
+
+.busy-pe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.busy-pe-container .pe {
+  flex-basis: 90%;
+}
